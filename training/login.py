@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf-8')
 
 @pytest.fixture
 def driver(request):
-    wd = webdriver.Firefox()
+    wd = webdriver.Safari()
     request.addfinalizer(wd.quit)
     return wd
 
