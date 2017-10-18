@@ -14,7 +14,7 @@ def driver(request):
     return wd
 
 
-def test_task_7(driver):
+def test_task_8(driver):
     driver.get("http://localhost/litecart/en/")
 
     products = driver.find_elements_by_css_selector("li[class*='product']")
