@@ -14,7 +14,7 @@ def driver(request):
     return wd
 
 
-def test_task_9a(driver):
+def test_task_9b(driver):
 
     driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones")
     driver.find_element_by_name("username").send_keys("admin")
