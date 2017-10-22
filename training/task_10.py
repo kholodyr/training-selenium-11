@@ -3,15 +3,16 @@ import pytest
 from selenium import webdriver
 import sys
 
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
 
 @pytest.fixture
 def driver(request):
     wd = webdriver.Firefox()
     request.addfinalizer(wd.quit)
     return wd
+
 
 def test_task_10a(driver):
 
@@ -21,6 +22,7 @@ def test_task_10a(driver):
     product.click()
     product_title2 = driver.find_element_by_xpath(".//div[@id='box-product']//h1[@class='title']").text
     print(product_title1 == product_title2)
+
 
 def test_task_10b(driver):
 
@@ -33,6 +35,7 @@ def test_task_10b(driver):
     product_sale_price2 = driver.find_element_by_xpath("//strong[@class='campaign-price']").text
     print(product_reg_price1 == product_reg_price2)
     print(product_sale_price1 == product_sale_price2)
+
 
 def test_task_10c(driver):
 
@@ -75,6 +78,7 @@ def test_task_10c(driver):
         blue_reg_price_color = reg_price_color2[14:17]
         print(red_reg_price_color == green_reg_price_color == blue_reg_price_color)
 
+
 def test_task_10d(driver):
 
     font_weight = 'bold'
@@ -83,6 +87,7 @@ def test_task_10d(driver):
     product = driver.find_element_by_xpath("//div[@id='box-campaigns']//li[@class='product column shadow hover-light']/a")
     sale_price_weight = product.find_element_by_xpath(".//strong[@class='campaign-price']").value_of_css_property("font-weight")
     print (sale_price_weight == font_weight or sale_price_weight == font_weight_ff)
+
 
 def test_task_10e(driver):
 
@@ -119,7 +124,7 @@ def test_task_10e(driver):
 
 
 def test_task_10f(driver):
-    
+
     driver.get("http://localhost/litecart/en/")
     product = driver.find_element_by_xpath("//div[@id='box-campaigns']//li[@class='product column shadow hover-light']/a")
     sale_price_size1 = product.find_element_by_xpath(".//strong[@class='campaign-price']").value_of_css_property("font-size")
