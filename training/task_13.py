@@ -40,6 +40,5 @@ def test_task_13(driver):
     cart = driver.find_elements_by_xpath("//table[@class='dataTable rounded-corners']//td[@class='item']")
 
     for item in cart:
-        print item
         driver.find_element_by_name("remove_cart_item").click()
         WebDriverWait(driver, 10).until(EC.staleness_of(item))
