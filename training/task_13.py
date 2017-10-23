@@ -14,7 +14,6 @@ sys.setdefaultencoding('utf-8')
 @pytest.fixture
 def driver(request):
     wd = webdriver.Chrome()
-    wd.implicitly_wait(5)#seconds
     request.addfinalizer(wd.quit)
     return wd
 

@@ -16,7 +16,7 @@
     <SUITE FILE_PATH="coverage/training$py_test_in_task_9_py.coverage" NAME="py.test in task_9a.py Coverage Results" MODIFIED="1508270539589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/training$py_test_in_login_py.coverage" NAME="py.test in login.py Coverage Results" MODIFIED="1506369192532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/training$py_test_in_training.coverage" NAME="py.test in training Coverage Results" MODIFIED="1505976356234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/training$py_test_in_task_13_py.coverage" NAME="py.test in task_13.py Coverage Results" MODIFIED="1508795640266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/training$py_test_in_task_13_py.coverage" NAME="py.test in task_13.py Coverage Results" MODIFIED="1508797147304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/training$py_test_in_task_9b_py.coverage" NAME="py.test in task_9b.py Coverage Results" MODIFIED="1508327712958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/training$py_test_in_test_example_py.coverage" NAME="py.test in test_example.py Coverage Results" MODIFIED="1507034011784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/training$py_test_in_task_10_py.coverage" NAME="py.test in task_10.py Coverage Results" MODIFIED="1508445219903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="task_13.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task_13.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="225">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -380,14 +380,11 @@
       <workItem from="1507630105040" duration="50895000" />
       <workItem from="1508691312294" duration="11000" />
       <workItem from="1508692197115" duration="15000" />
-      <workItem from="1508692231556" duration="36945000" />
+      <workItem from="1508692231556" duration="37321000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_task_13_py - 2017.10.24 at 00h 24m 31s.xml">
-      <configuration name="py.test in task_13.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_task_13_py - 2017.10.24 at 00h 26m 20s.xml">
       <configuration name="py.test in task_13.py" configurationId="tests" />
     </history-entry>
@@ -415,9 +412,12 @@
     <history-entry file="py_test_in_task_13_py - 2017.10.24 at 00h 54m 24s.xml">
       <configuration name="py.test in task_13.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_task_13_py - 2017.10.24 at 01h 19m 16s.xml">
+      <configuration name="py.test in task_13.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132151000" />
+    <option name="totallyTimeSpent" value="132527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="6" />
@@ -917,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_13.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
